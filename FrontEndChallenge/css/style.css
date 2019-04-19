@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.menu-container {
+  color: #000000;
+  display: flex;
+  justify-content: center;
+
+}
+
+.status-bar {
+  width: 375px;
+  display: flex;
+  background-color: #F8F8F8;
+  padding: 10px 10px;
+  justify-content: space-between;
+}
+
+.left-info{
+  display:flex;
+  align-self: flex-start;
+}
+
+.time{
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.location-services{
+  margin-left: 5px;
+}
+
+
+.right-icons{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.data-signal{
+  margin-left: 5px;
+}
+
+.wifi-signal{
+  margin-left: 5px;
+}
+
+.battery-indicator{
+  margin-left: 5px;
+}
+
+.busstop-container {
+  color: #000000;
+  display: flex;
+  justify-content: center;
+}
+
+.busstop {
+  width: 375px;
+  display: flex;
+  background-color: #F8F8F8;
+  padding: 10px 10px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.station{
+  font-size: 17px;
+  margin-left: 10px;
+}
+
+.map-container{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0:
+}
+
+.map {
+  width: 375px;
+  display: flex;
+}
+
+.schedule-container{
+    display: flex;
+    justify-content: center;
+}
+
+.route-direction{
+  width: 375px;
+  display: flex;
+  background-color: #F8F8F8;
+  padding: 5px 5px;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 15px;
+  margin: -2px;
+}
+.route-container{
+  display: flex;
+  justify-content: center;
+}
+.route-row{
+  width: 375px;
+  display: flex;
+  padding: 10px 5px 10px 5px;
+  border-bottom: thin solid #c4c4c4;
+  /*align-items: center;*/
+  justify-content: space-between;
+}
+.route-leftinfo{
+  display:flex;
+  flex-direction: column;
+}
+.route-number{
+  display: flex;
+  justify-content: flex-start;
+  font-size: 24px;
+}
+
+.route-destination{
+  display: flex;
+  font-size: 14px;
+  color: #999999;
+  padding-top: 5px;
+}
+
+.route-rightinfo{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.arrival-time{
+  margin-left: 5px;
+  padding-top: 5px;
+}
+
+.route-frequency{
+ color: #999999;
+ font-size: 12px;
+ padding: 14px;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ margin-left: 60px;
+ background-image: url('../images/Route_Frequency.png');
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-position: center;
+}
+
+.small-frequency{
+  font-size: 8px;
+}
+
+.route-frequency_white{
+ color: #ffffff;
+ font-size: 12px;
+ padding: 14px;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ margin-left: 60px;
+ background-color: #ffffff;
+}
