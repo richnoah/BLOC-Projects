@@ -9,182 +9,187 @@
   <title>BusyBus - Front End Challenge</title>
 </head>
 <body>
-  <div class="menu-container"><!--Top Bar-->
-   <div class="status-bar">
-    <div class="left-info">
-     <div class="time">1:03</div>
-     <div class="location-services"><img src="images/Location_10x9.png" alt="Location Services"></div>
+  <!--Top Bar-->
+  <header>
+    <div class="menu-container">
+     <div class="status-bar">
+      <div class="left-info">
+       <div class="time">1:03</div>
+       <div class="location-services"><img src="images/Location_10x9.png" alt="Location Services"></div>
+      </div>
+      <div class="right-icons">
+       <div class="data-signal"><img src="images/DataSignal_10x15.png" alt="Data Signal"></div>
+       <div class="wifi-signal"><img src="images/WiFiSignal_10x14.png" alt="WiFi Signal"></div>
+       <div class="battery-indicator"><img src="images/Battery_10x21.png" alt="Battery Life Indicator"></div>
+      </div>
+     </div>
     </div>
-    <div class="right-icons">
-     <div class="data-signal"><img src="images/DataSignal_10x15.png" alt="Data Signal"></div>
-     <div class="wifi-signal"><img src="images/WiFiSignal_10x14.png" alt="WiFi Signal"></div>
-     <div class="battery-indicator"><img src="images/Battery_10x21.png" alt="Battery Life Indicator"></div>
-    </div>
-   </div>
-  </div>
+  </header>
   <content>
     <!--Bus stop Section-->
-    <div class="busstop-container"><!--Bus Stop Information Section-->
+    <section class="busstop-container"><!--Bus Stop Information Section-->
       <div class="busstop">
        <div class="backbutton"><img src="images/ButtonBack.png" alt="ButtonBack"></div>
        <div class="station">Washington & State</div>
       </div>
-    </div>
+    </section>
     <!--Map Section-->
-    <div class="map-container">
+    <figure class="map-container">
      <div><img src="images/MapImage_Symbols_375x285.jpg" alt="Map Image"></div>
-    </div>
+    </figure>
     <!--Schedule Section-->
-    <div class="schedule-container">
-      <div class="route-direction">Eastbound</div>
-    </div>
-    <div class="route-container">
-      <div class="route-row">
-        <div class="route-leftinfo">
-          <div class="route-number">60</div>
-          <div class="route-destination">Randolph/Harbor Dr</div>
-        </div>
-        <div class="route-rightinfo">
-          <div class="arrival-time">1:04 PM</div>
-          <div class="route-frequency">
-            <div>10</div>
-            <div class="small-frequency">mins</div>
+    <section>
+      <header class="schedule-container">
+        <div class="route-direction">Eastbound</div>
+      </header>
+      <article class="route-container">
+        <div class="route-row">
+          <div class="route-leftinfo">
+            <div class="route-number">60</div>
+            <div class="route-destination">Randolph/Harbor Dr</div>
+          </div>
+          <div class="route-rightinfo">
+            <div class="arrival-time">1:04 PM</div>
+            <div class="route-frequency">
+              <div>10</div>
+              <div class="small-frequency">mins</div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="route-container">
-      <div class="route-row">
-        <div class="route-leftinfo">
-          <div class="route-number">124</div>
-          <div class="route-destination">Navy Pier</div>
-        </div>
-        <div class="route-rightinfo">
-          <div class="arrival-time">1:05 PM</div>
-          <div class="route-frequency">
-            <div>10</div>
-            <div class="small-frequency">mins</div>
+      </article>
+      <article class="route-container">
+        <div class="route-row">
+          <div class="route-leftinfo">
+            <div class="route-number">124</div>
+            <div class="route-destination">Navy Pier</div>
+          </div>
+          <div class="route-rightinfo">
+            <div class="arrival-time">1:05 PM</div>
+            <div class="route-frequency">
+              <div>10</div>
+              <div class="small-frequency">mins</div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="schedule-container">
-      <div class="route-direction">Northbound</div>
-    </div>
-    <div class="route-container">
-      <div class="route-row">
-        <div class="route-leftinfo">
-          <div class="route-number">150</div>
-          <div class="route-destination">Devon/Clark</div>
-        </div>
-        <div class="route-rightinfo">
-          <div class="arrival-time">1:08 PM</div>
-          <div class="route-frequency">
-            <div>16</div>
-            <div class="small-frequency">mins</div>
+      </article>
+      <header class="schedule-container">
+        <div class="route-direction">Northbound</div>
+      </header>
+      <article class="route-container">
+        <div class="route-row">
+          <div class="route-leftinfo">
+            <div class="route-number">150</div>
+            <div class="route-destination">Devon/Clark</div>
+          </div>
+          <div class="route-rightinfo">
+            <div class="arrival-time">1:08 PM</div>
+            <div class="route-frequency">
+              <div>16</div>
+              <div class="small-frequency">mins</div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="schedule-container">
-      <div class="route-direction">Southbound</div>
-    </div>
-    <div class="route-container">
-      <div class="route-row">
-        <div class="route-leftinfo">
-          <div class="route-number">J14</div>
-          <div class="route-destination">103rd/Stony Island</div>
-        </div>
-        <div class="route-rightinfo">
-          <div class="arrival-time">1:12 PM</div>
-          <div class="route-frequency">
-            <div>15</div>
-            <div class="small-frequency">mins</div>
+      </article>
+      <header class="schedule-container">
+        <div class="route-direction">Southbound</div>
+      </header>
+      <article class="route-container">
+        <div class="route-row">
+          <div class="route-leftinfo">
+            <div class="route-number">J14</div>
+            <div class="route-destination">103rd/Stony Island</div>
+          </div>
+          <div class="route-rightinfo">
+            <div class="arrival-time">1:12 PM</div>
+            <div class="route-frequency">
+              <div>15</div>
+              <div class="small-frequency">mins</div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="route-container">
-      <div class="route-row">
-        <div class="route-leftinfo">
-          <div class="route-number">124</div>
-          <div class="route-destination">Navy Pier</div>
-        </div>
-        <div class="route-rightinfo">
-          <div class="arrival-time">1:13 PM</div>
-          <div class="route-frequency">
-            <div>10</div>
-            <div class="small-frequency">mins</div>
+      </article>
+      <article class="route-container">
+        <div class="route-row">
+          <div class="route-leftinfo">
+            <div class="route-number">124</div>
+            <div class="route-destination">Navy Pier</div>
+          </div>
+          <div class="route-rightinfo">
+            <div class="arrival-time">1:13 PM</div>
+            <div class="route-frequency">
+              <div>10</div>
+              <div class="small-frequency">mins</div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="schedule-container">
-      <div class="route-direction">Reroute</div>
-    </div>
-    <div class="route-container">
-      <div class="route-row">
-        <div class="route-leftinfo">
-          <div class="route-number">6x</div>
-          <div class="route-destination">Jackson Park Express</div>
-        </div>
-        <div class="route-rightinfo">
-          <div class="arrival-time">1:17 PM</div>
-          <div class="route-frequency_white">
-            <div>10</div>
-            <div class="small-frequency">mins</div>
+      </article>
+      <header class="schedule-container">
+        <div class="route-direction">Reroute</div>
+      </header>
+      <article class="route-container">
+        <div class="route-row">
+          <div class="route-leftinfo">
+            <div class="route-number">6x</div>
+            <div class="route-destination">Jackson Park Express</div>
+          </div>
+          <div class="route-rightinfo">
+            <div class="arrival-time">1:17 PM</div>
+            <div class="route-frequency_white">
+              <div>10</div>
+              <div class="small-frequency">mins</div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="schedule-container">
-      <div class="route-direction">Out of Service</div>
-    </div>
-    <div class="route-container">
-      <div class="route-row">
-        <div class="route-leftinfo">
-          <div class="route-number">4</div>
-          <div class="route-destination">Cottage Grove</div>
-        </div>
-        <div class="route-rightinfo">
-          <div class="arrival-time">Resumes 12:10am</div>
-          <div class="route-frequency_white">
-            <div>10</div>
-            <div class="small-frequency">mins</div>
+      </article>
+      <header class="schedule-container">
+        <div class="route-direction">Out of Service</div>
+      </header>
+      <artcile class="route-container">
+        <div class="route-row">
+          <div class="route-leftinfo">
+            <div class="route-number">4</div>
+            <div class="route-destination">Cottage Grove</div>
+          </div>
+          <div class="route-rightinfo">
+            <div class="arrival-time">Resumes 12:10am</div>
+            <div class="route-frequency_white">
+              <div>10</div>
+              <div class="small-frequency">mins</div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="route-container">
-      <div class="route-row">
-        <div class="route-leftinfo">
-          <div class="route-number">20</div>
-          <div class="route-destination">Madison</div>
-        </div>
-        <div class="route-rightinfo">
-          <div class="arrival-time">Resumes 12:10am</div>
-          <div class="route-frequency_white">
-            <div>10</div>
-            <div class="small-frequency">mins</div>
+      </artcile>
+      <article class="route-container">
+        <div class="route-row">
+          <div class="route-leftinfo">
+            <div class="route-number">20</div>
+            <div class="route-destination">Madison</div>
+          </div>
+          <div class="route-rightinfo">
+            <div class="arrival-time">Resumes 12:10am</div>
+            <div class="route-frequency_white">
+              <div>10</div>
+              <div class="small-frequency">mins</div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="route-container">
-      <div class="route-row">
-        <div class="route-leftinfo">
-          <div class="route-number">157</div>
-          <div class="route-destination">Streetville/Taylor</div>
-        </div>
-        <div class="route-rightinfo">
-          <div class="arrival-time">Resumes 6:00am</div>
-          <div class="route-frequency_white">
-            <div>10</div>
-            <div class="small-frequency">mins</div>
+      </article>
+      <article class="route-container">
+        <div class="route-row">
+          <div class="route-leftinfo">
+            <div class="route-number">157</div>
+            <div class="route-destination">Streetville/Taylor</div>
+          </div>
+          <div class="route-rightinfo">
+            <div class="arrival-time">Resumes 6:00am</div>
+            <div class="route-frequency_white">
+              <div>10</div>
+              <div class="small-frequency">mins</div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
+      </article>
+    </section>
     </content>
 </body>
 </html>
